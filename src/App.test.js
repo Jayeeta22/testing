@@ -83,4 +83,14 @@ describe("function testcase", ()=>{
       expect(linkElement).toBeInTheDocument();
     
       })
+
+      describe("inner testcase",()=>{
+       
+        test('inner1', () => {
+          render(<App />);
+          const linkElement = screen.getByText(/Jayeeta/i);
+      expect(linkElement).toBeInTheDocument();
+    
+           })
+      })
 })
