@@ -16,3 +16,71 @@ test('renders learn react link', () => {
   expect(placeholder).toBeInTheDocument();
 });
  
+describe.skip("testcase for UI", ()=>{
+  test("test case 1" ,()=>{
+  render(<App />);
+  const linkElement = screen.getByText(/Jayeeta/i);
+  expect(linkElement).toBeInTheDocument();
+
+  })
+
+  test("test case 2" ,()=>{
+    render(<App />);
+    const linkElement = screen.getByText(/Jayeeta/i);
+    expect(linkElement).toBeInTheDocument();
+  
+    })
+
+    test("test case 3" ,()=>{
+      render(<App />);
+      const linkElement = screen.getByText(/Jayeeta/i);
+      expect(linkElement).toBeInTheDocument();
+    
+      })
+})
+
+// describe.only("api testcase", ()=>{
+//   test("api test case 1" ,()=>{
+//   render(<App />);
+//   const linkElement = screen.getByText(/Jayeeta/i);
+//   expect(linkElement).toBeInTheDocument();
+
+//   })
+
+//   test("api test case 2" ,()=>{
+//     render(<App />);
+//     const linkElement = screen.getByText(/Jayeeta/i);
+//     expect(linkElement).toBeInTheDocument();
+  
+//     })
+
+//     test("api test case 3" ,()=>{
+//       render(<App />);
+//       const linkElement = screen.getByText(/Jayeeta/i);
+//       expect(linkElement).toBeInTheDocument();
+    
+//       })
+// })
+
+describe("function testcase", ()=>{
+  test("function test case 1" ,()=>{
+  render(<App />);
+  const linkElement = screen.getByText(/Jayeeta/i);
+  expect(linkElement).toBeInTheDocument();
+
+  })
+
+  test("function test case 2" ,()=>{
+    render(<App />);
+    const linkElement = screen.getByText(/Jayeeta/i);
+    expect(linkElement).toBeInTheDocument();
+  
+    })
+
+    test("function test case 3" ,()=>{
+      render(<App />);
+      const linkElement = screen.getByText(/Jayeeta/i);
+      expect(linkElement).toBeInTheDocument();
+    
+      })
+})
