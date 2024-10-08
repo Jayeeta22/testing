@@ -6,7 +6,7 @@ function App() {
   const [data,setData]=useState("")
   return (
     <div className="App">
-     <div>hello Jayeeta</div>
+     <div>hello Jayeeta1</div>
      <input placeholder='type here' name='username' id='userId' value={data} onChange={(e)=>setData(e.target.value)} />
     </div>
   );
